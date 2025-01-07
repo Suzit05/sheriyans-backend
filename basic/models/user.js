@@ -6,7 +6,7 @@ const userSchema = new mongoose.Schema({   //schema is a fn which takes object
     password: String,
 })
 
-const userModel = mongoose.model("user", userSchema)  //"user"--model name && "userSchema"--schema
+// const userModel = mongoose.model("user", userSchema)  //"user"--model name && "userSchema"--schema
 
 
-module.exports = userModel
+// module.exports = userModel
